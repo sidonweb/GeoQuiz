@@ -1,0 +1,117 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 40%;
+    height: 300px;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid;
+    background-color: white;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    margin: 0;
+}
+.horizontal-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.answer-container{
+    width: 100%;
+    text-align: center;
+}
+input{
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: large;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffca00;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd500;
+  }
+
+  #result {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .checkmark {
+    color: transparent;
+    animation: checkmark 0.5s ease;
+  }
+  
+  .cross {
+    color: transparent;
+    animation: cross 0.5s ease;
+  }
+  
+  @keyframes checkmark {
+    0% {
+      color: transparent;
+    }
+    100% {
+      color: green;
+    }
+  }
+  
+  @keyframes cross {
+    0% {
+      color: transparent;
+    }
+    100% {
+      color: red;
+    }
+  }
+
+.restart-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 15% auto;
+    width: 30%;
+    letter-spacing: 2px;
+    background-color: #fff;
+    color: #000000;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    
+}

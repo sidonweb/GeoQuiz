@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+
+<div class="container">
+    <button type="button" onclick="clickFun1()" >Flags Quiz</button>
+    <button type="button" onclick="clickFun2()" >Capitals Quiz</button>
+</div>
+<script>
+    function clickFun1()  {
+        window.location = '/flags';
+    }
+    function clickFun2() {
+        window.location = '/capitals';
+    }
+</script>
+
+<%- include('partials/footer.ejs') %>
